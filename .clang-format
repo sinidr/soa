@@ -1,0 +1,20 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 120
+DerivePointerAlignment: false
+PointerAlignment: Left
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterControlStatement: false
+  BeforeElse: false
+  IndentBraces: false
+SpacesInParentheses: false
+SpaceBeforeParens: ControlStatements
+ReflowComments: true
+SortIncludes: true
+Standard: Cpp20
+AllowShortFunctionsOnASingleLine: None
